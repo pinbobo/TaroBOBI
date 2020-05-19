@@ -1,0 +1,69 @@
+.categoryBody
+  height: 100vh
+  .wrap
+    display: flex
+    flex-direction: row
+    width: 100%
+    height: 100%
+    .left
+      width: 140px
+      height: 100%
+      background-color: #F4F4F4
+      .category
+        display: flex
+        flex-direction: column
+        .title
+          font-size: 12px
+          font-weight: 500
+          color: #333
+          line-height: 50px
+          text-align: center
+        .list
+          .item
+            position: relative
+            display: flex
+            flex-direction: row
+            align-items: center
+            justify-content: space-between
+            box-sizing: border-box
+            height: 50px
+            padding: 0 12px
+            font-size: 12px
+            line-height: 17px
+            color: #333
+            &.active
+              background-color: white
+              .active_line
+                background-color: #C877FC
+          .active_line
+            position: absolute
+            left: 0
+            top: 50%
+            width: 3px
+            height: 14px
+            margin-top: -7px
+            background-color: transparent
+          .name
+            font-weight: 500
+    .right
+      flex: 1
+      background-color: white
+      .child_wrap
+        .category_child
+          .title
+            font-size: 12px
+            font-weight: 500
+            line-height: 50px
+            color: #222
+            padding: 0 12px
+          .item
+            display: flex
+            flex-direction: row
+            align-items: center
+            padding-left: 24px
+            .text
+              flex: 1
+              font-size: 12px
+              line-height: 50px
+              color: #222
+              border-bottom: 0.5px solid #D7D7D7

@@ -1,0 +1,17 @@
+.phone_button {
+  position: static;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+  width: auto;
+  height: auto;
+  line-height: normal;
+  font-size: medium;
+  &::after {
+    border: none;
+    outline: none;
+    list-style: none;
+  }
+}

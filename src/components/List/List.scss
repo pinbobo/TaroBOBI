@@ -1,0 +1,45 @@
+.case {
+  margin: 0 16px;
+  border-bottom: 0.5px solid rgba(215, 215, 215, 0.3);
+  .case-item {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 16px;
+    .case-image {
+      width: 128px;
+      height: 72px;
+      border-radius: 3px;
+    }
+    .case_wrap {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      flex: 1;
+      margin-left: 10px;
+      .title {
+        font-size: 14px;
+        line-height: 20px;
+        color: #353535;
+      }
+      .info {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: auto;
+        color: #888;
+        font-size: 11px;
+      }
+      .view_icon {
+        width: 16px;
+        height: 16px;
+        margin-right: 3px;
+      }
+      .views_wrap {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-right: auto;
+      }
+    }
+  }
+}

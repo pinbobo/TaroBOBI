@@ -1,0 +1,129 @@
+.my
+  height: 100vh
+  background-color: #F3F5F7
+
+.my_info
+  position: relative
+  display: flex
+  flex-direction: column
+  justify-content: flex-end
+  background-color: #343434
+  height: 142px
+  .bg
+    position: absolute
+    left: 80px
+    bottom: 27px
+    width: 216px
+    height: 72px
+  &.level_one
+    background-color: white
+    .info
+      .avatar
+        border-color: transparent
+      .name_wrap
+        .level
+          background-color: #f5f6f8
+        .name
+          color: #262626
+        .text
+          color: #CFCFCF
+  &.level_two
+    .info
+      .avatar
+        border-color: #fff
+      .name_wrap
+        .level
+          background-color: rgba(255, 255, 225 , 0.15)
+        .name
+          color: #fff
+        .text
+          color: #fff
+  &.level_three
+    .info
+      .avatar
+        border-color: #FFD4BD
+      .name_wrap
+        .level
+          background-color: rgba(255, 212, 189, 0.15)
+        .color
+          color: #FFD4BD
+        .text
+          color: #FFD4BD
+  &.level_four
+    .info
+      .avatar
+        border-color: #F5E5C0
+      .name_wrap
+        .level
+          background-color: rgba(245, 229, 192, 0.15)
+        .name
+          color: #F5E5C0
+        .text
+          color: #F5E5C0
+  .info
+    display: flex
+    flex-direction: row
+    align-items: center
+    margin: 0 24px 16px
+
+    .avatar
+      box-sizing: border-box
+      width: 66px
+      height: 66px
+      border: 3px solid #FFD4BD
+      border-radius: 50%
+    .name_wrap
+      color: #FFD4BD
+      padding: 8px 0
+      margin-left: 12px
+      .name
+        font-size: 20px
+        line-height: 28px
+        font-weight: 500
+      .level
+        display: flex
+        flex-direction: row
+        align-items: center
+        margin-top: 4px
+        padding: 1px 5px
+        border-radius: 3px
+        background-color: #f5f6f8
+        .icon
+          width: 20px
+          height: 14px
+          margin-right: 5px
+        .text
+          font-size: 11px
+          line-height: 16px
+
+.nav
+  background-color: white
+  .item
+    display: flex
+    flex-direction: row
+    align-items: center
+    width: 100%
+    .icon
+      width: 24px
+      height: 24px
+      margin: 0 16px
+    .text_wrap
+      display: flex
+      flex-direction: row
+      box-sizing: border-box
+      align-items: center
+      justify-content: space-between
+      flex: 1
+      height: 50px
+      border-bottom: 0.5px solid rgba(215, 215, 215, 0.5)
+      opacity: 0.8
+      .text
+        font-size: 16px
+        line-height: 22px
+        color: #353535
+      .icon_arrow
+        width: 12px
+        height: 12px
+        margin-right: 16px
+    &:last-child .text_wrap
+      border: none

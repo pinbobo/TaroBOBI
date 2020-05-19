@@ -1,0 +1,18 @@
+.tabs {
+  display: flex;
+  flex-direction: row;
+  .tabs-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    height: 44px;
+    .text {
+      font-size: 16px;
+      line-height: 22px;
+      color: #333740;
+
+    }
+  }
+}

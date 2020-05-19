@@ -1,0 +1,16 @@
+.session-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 16px 12px;
+  .icon {
+    width: 22px;
+    height: 20px;
+  }
+  .title {
+    margin-left: 10px;
+    font-size: 18px;
+    line-height: 25px;
+    color: #353535;
+  }
+}

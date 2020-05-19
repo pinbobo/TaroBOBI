@@ -1,0 +1,42 @@
+.box
+  display: flex
+  flex-direction: row
+  justify-content: space-between
+  flex-wrap: wrap
+  margin: 0 16px
+  color: red
+  .layout
+    width: 50%
+    box-sizing: border-box
+    padding: 0 3px
+    .item
+      display: flex
+      flex-direction: column
+      width: 100%
+      overflow: hidden
+      margin-bottom: 8px
+      padding-bottom: 13px
+      border-radius: 6px
+      box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.05)
+      .image
+        width: 100%
+        height: auto
+      .title
+        margin: 13px 0 2px 8px
+        font-size: 14px
+        line-height: 20px
+        white-space: nowrap
+        text-overflow: ellipsis
+        overflow: hidden
+        color: #222222
+      .desc
+        display: -webkit-box
+        margin: 0 8px
+        height: 36px
+        font-size: 12px
+        line-height: 18px
+        -webkit-line-clamp: 2
+        -webkit-box-orient: vertical
+        text-overflow: ellipsis
+        overflow: hidden
+        color: #999

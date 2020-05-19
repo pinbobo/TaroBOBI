@@ -1,0 +1,52 @@
+.demand
+  height: 100vh
+  background-color: #F4F4F4
+  .platform_scroll
+    background-color: white
+    .platform_list
+      display: flex
+      flex-direction: row
+      margin-bottom: 10px
+      .platform
+        display: flex
+        flex-direction: column
+        align-items: center
+        justify-content: center
+        flex-shrink: 0
+        height: 100px
+        padding: 0 5px
+        filter: grayscale(100%)
+        .logo
+          width: 40px
+          height: 40px
+          border-radius: 50%
+          box-sizing: border-box
+          transition: all 0.15s
+          border: 2px solid transparent
+        .text
+          font-size: 12px
+          line-height: 17px
+          color: #333
+          margin-top: 6px
+        &.active
+          filter: none
+          .logo
+            border-color: #FC8DEF
+      .arrow
+        width: 12px
+        height: 12px
+  .button
+    margin: 0 12px
+    margin-top: 66px
+    line-height: 45px
+    border-radius: 4px
+    text-align: center
+    font-size: 16px
+    color: white
+    background: linear-gradient(to, left, #C877FC, #FC8DEF)
+
+.options
+  margin-top: 10px
+.interval
+  height: 10px
+  background-color: #F4F4F4
